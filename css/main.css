@@ -24,6 +24,7 @@ html {
   list-style-type: none;
   position: relative;
   bottom: -315px;
+  text-align: center;
 }
 
 .tabs > li {
@@ -34,7 +35,7 @@ html {
   display: inline-block;
   background-color: #fff;
   color: #000;
-  transition: all 500ms linear;
+  transition: all 100ms linear;
   text-decoration: none;
   border-radius: 15px;
   border: solid 3px #000;
@@ -50,6 +51,9 @@ html {
 
 .images {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
 }
 
 .onei {
